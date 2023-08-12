@@ -42,6 +42,14 @@ p strong {
   color: #3f3d56;
 }
 
+#footer #links {
+  display: flex;
+  gap: 42px;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+}
+
 #footer #links a {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -51,13 +59,15 @@ p strong {
   color: #3f3d56;
   text-align: center;
   text-decoration: none;
-  padding-right: 42px;
 }
 
 #footer #line {
   margin: 64px auto 16px;
 }
 
-footer img {
-  margin: 40.83px auto 0;
+body > img {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
